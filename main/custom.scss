@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .header {
+        background: url('/banner-mobile.jpg');
+        height: 865px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20px;
+
+        .content-link {
+            height: 80px;
+            width: 100%;
+
+            .sign {
+                float: right;
+                text-decoration: none;
+                margin-right: 60px;
+                margin-top: 20px;
+                border: 1px solid green;
+                padding: 7px 15px;
+                font-size: 15px;
+                border-radius: 20px;
+                color: green;
+                text-transform: uppercase;
+
+            }
+
+            .sign:hover {
+                text-decoration: underline;
+            }
+
+            .about {
+                float: right;
+                text-decoration: none;
+                margin-right: 25px;
+                margin-top: 20px;
+                font-size: 15px;
+                padding: 7px 15px;
+                text-transform: uppercase;
+                color: black;
+
+            }
+
+            .about:hover {
+                text-decoration: underline;
+
+
+            }
+
+
+        }
+
+        .logo {
+            background-image: url('/hapoERP.png');
+            height: 100px;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-top: 40px;
+        }
+
+        .content__center {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 40px;
+
+            .left,
+            .center,
+            .right {
+                padding: 0 80px 0 80px;
+            }
+
+            img {
+                height: 60px;
+            }
+
+            .text_1 {
+                font-size: 40px;
+                margin-top: 10px;
+            }
+
+        }
+
+        .text {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .btn {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 40px;
+
+            button {
+                padding: 10px 20px;
+                text-transform: uppercase;
+                border-radius: 15px;
+                background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+                color: white;
+                font-size: 15px;
+            }
+        }
+    }
+}
